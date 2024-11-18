@@ -1,6 +1,6 @@
 # Deneme Takip Sistemi
 
-Bu proje, öğrencilerin deneme sınavlarını takip edebilmeleri için basit bir web uygulaması sağlar. Kullanıcılar denemelerini ekleyebilir, net sayılarını ve başarı oranlarını görüntüleyebilir.
+Merhaba! Ben Kim, 17 yaşında bi sınav öğrencisiym. Bu projeyi kendi denemelerimi ve gelişimimi görmek için yaptım. Şimdiden teşekkürler!!
 
 ## Özellikler
 - Deneme ekleme (Adı, tarih, doğru ve yanlış sayısı)
@@ -12,6 +12,4 @@ Bu proje, öğrencilerin deneme sınavlarını takip edebilmeleri için basit bi
 2. `index.html` dosyasını bir tarayıcıda açın.
 3. Deneme bilgilerini girip tabloyu güncelleyin.
 
-## Katkıda Bulunma
-Katkıda bulunmak isterseniz, lütfen bir **pull request** gönderin.
 
