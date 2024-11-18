@@ -2,27 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deneme Takip Sistemi</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Deneme Takip Sistemi</h1>
-    
-    <div class="form-container">
-        <h2>Yeni Deneme Ekle</h2>
-        <div class="form-group">
-            <label for="denemeAdi">Deneme Adı:</label>
-            <input type="text" id="denemeAdi" placeholder="Örn: TYT Deneme 1">
-        </div>
-        <div class="form-group">
-            <label for="tarih">Tarih:</label>
-            <input type="date" id="tarih">
-        </div>
-        <div class="form-group">
-            <label for="dogruSayisi">Doğru Sayısı:</label>
-            <input type="number" id="dogruSayisi" placeholder="Örn: 35">
-        </div>
-        <div class="form-group">
+    <a href="{{ url_for('login') }}">Giriş Yap</a>
+    <a href="{{ url_for('register') }}">Kayıt Ol</a>
+</body>
+</html>
+
            
 
