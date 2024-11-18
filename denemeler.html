@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Denemeler</title>
+</head>
+<body>
+    <h1>Deneme Listesi</h1>
+    <form method="POST">
+        <input type="text" name="denemeAdi" placeholder="Deneme Adı" required><br>
+        <input type="date" name="tarih" required><br>
+        <input type="number" name="dogruSayisi" placeholder="Doğru Sayısı" required><br>
+        <input type="number" name="yanlisSayisi" placeholder="Yanlış Sayısı" required><br>
+        <button type="submit">Deneme Ekle</button>
+    </form>
+    <h2>Denemeler</h2>
+    <ul>
+        {% for deneme in denemeler %}
+            <li>{{ deneme.deneme_adi }} ({{ deneme.tarih }}) - Net: {{ deneme.net }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
